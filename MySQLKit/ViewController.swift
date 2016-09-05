@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let MSK = MySQLKit(MSKHandler: msk_php_url, database: databaseGet)
         //MSK.runRequest_DATA(query: "INSERT INTO icecream (flavor, quantity) VALUES ('chocolate',5);")
         //MSK.runRequest_DATA(query: "INSERT INTO icecream (flavor, quantity) VALUES ('strawberry',3);")
-        MSK.runRequest_DATA(query: "SELECT * FROM icecream").asString.printSelf()
+        //MSK.runRequest_DATA(query: "SELECT * FROM icecream").asString.printSelf()
     }
     
     override func didReceiveMemoryWarning() {
